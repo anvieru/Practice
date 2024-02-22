@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnNewLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_0"
+        android:textSize="96sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/pract1"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:scrollbarThumbHorizontal="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView3">
+
+        <Button
+            android:id="@+id/button_Toast"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonToast" />
+
+        <Button
+            android:id="@+id/button_Plus"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonPlus" />
+
+        <Button
+            android:id="@+id/button_Minus"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonMinus" />
+
+        <Button
+            android:id="@+id/button_Random"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonRandom" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_Audio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonMedia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

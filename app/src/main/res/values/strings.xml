@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Учебное приложение</string>
+
+    <string name="textBTN">Привет</string>
+
+    <string name="textview">TextView</string>
+    <string name="_0">0</string>
+    <string name="pause">Pause</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="pract1">Практическое задание 1 </string>
+
+    <string name="buttonToast">Toast</string>
+    <string name="buttonPlus">+</string>
+    <string name="buttonMinus">-</string>
+    <string name="buttonRandom">Рандом</string>
+    <string name="buttonMedia">Аудио</string>
+    <string name="random_heading">Это случайное число между 0 и %1d.</string>
+
+
+</resources>
